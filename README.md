@@ -1,11 +1,11 @@
 In this project, this is the final accumulation of learning the basics for HTML and CSS and using media queries
 
-Build the website exactly as depicted in the video
-Each section of the website must look near identical as depicted in the video and mockup below.
-Cards in "Key benefits" section must have hover effect
-Must support mobile (375px), iPad/tablet (768px) and desktop
-No duplicate styles (two different classes should not share the same exact styles. A single class should be used.
-HTML must follow a consistent indentation pattern.
-CSS must follow a consistent indentation pattern.
-No large gaps/empty space between elements.
-No large gaps/empty space between css style rules.
+1. Build the website exactly as depicted in the video
+2. Each section of the website must look near identical as depicted in the video and mockup below.
+3. Cards in "Key benefits" section must have hover effect
+4. Must support mobile (375px), iPad/tablet (768px) and desktop
+5. No duplicate styles (two different classes should not share the same exact styles. A single class should be used.
+6. HTML must follow a consistent indentation pattern.
+7. CSS must follow a consistent indentation pattern.
+8. No large gaps/empty space between elements.
+9. No large gaps/empty space between css style rules.
