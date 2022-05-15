@@ -1,4 +1,3 @@
-In this project, this is the final accumulation of learning the basics for HTML and CSS and using media queries
 
 1. Build the website exactly as depicted in the video
 2. Each section of the website must look near identical as depicted in the video and mockup below.
