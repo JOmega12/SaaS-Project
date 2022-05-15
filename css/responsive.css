@@ -1,0 +1,226 @@
+@media screen and (max-width: 768px) {
+   
+   .navbar-toggler {
+      position: relative;
+      right: var(--size-20);
+      top: var(--size-10);
+   }
+
+   nav.navbar {
+      position: absolute;
+      transition: ease-in-out 0.3s;
+   }
+
+   nav .container ul.navbar-nav  {
+      display: flex;
+      margin-left: 15px;;
+   }
+   
+   .image-navbar {
+      display: flex;
+      margin-right: 100px;
+      width: 100px;
+      height: 50px;
+      margin-top: 10px;
+      cursor: pointer;
+      margin-left: 0;
+   }
+
+   .navbar-container {
+      justify-content: flex-start;
+   }
+
+   nav.navbar div.container div.image-navbar img{
+      justify-content: none;
+   }
+   
+   .second-ish-container {
+      flex-direction: column;
+   }
+
+   .second-container {
+      flex-direction: column;
+   }
+
+   .company-logos-grid {
+      margin-top: 50px;
+   }
+
+   div.second-container .company-logos-grid .weave {
+      grid-template-columns: 4 / 5;
+      grid-template-rows: 3 / 4;
+   }
+
+   div.key-benefit-grid {
+      grid-template-columns: none;
+      grid-template-rows: repeat(5, 1fr);
+      justify-content: center;
+   }
+
+   .responsive {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   .respo {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .mid-container {
+      flex-direction: column;
+   }
+
+   .banner-one {
+      flex-direction: column;
+   }
+
+   .banner-one-right {
+      margin-top: 50px;
+   }
+   
+   .container .left-test-box .dots-image {
+    position: absolute;
+    left: 100px;
+    margin-top: 100px;
+   }
+
+   .container .pricing-grid {
+      flex-direction: column;
+   }
+
+   .left-price-box {
+      box-shadow: -7px -10px 50px 5px #666; 
+      padding: 50px;
+   }
+
+
+   .speech-and-form .left-speech {
+      flex: 1;
+      width: 100%
+   }
+
+   .left-speech .hire-us hr {
+      margin-left: 110px;
+   }
+
+
+   div.form-fill {
+      flex-wrap: wrap;
+      height: 100%;
+   }
+
+   .form-fill .speech-and-form {
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      margin-top: 5px;
+      
+   }
+
+   .left-speech .image-people {
+      margin-left: 150px;
+   }
+
+
+   .speech-and-form .right-form {
+      width: 80%;
+      margin-left: 25px;
+   }
+
+   footer {
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+
+   footer .subcat-footer {
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+   }
+
+    .address, .phone-number, .hiring, .resources-info,
+    .account-info{
+      justify-content: center;
+   }
+
+
+}
+
+@media screen and (max-width: 375px) {
+   .navbar-toggler {
+      position: relative;
+      margin-left: 50px;
+   }
+
+   nav.navbar {
+      position: absolute; 
+   }
+
+   .image-navbar {
+      display: flex;
+      margin-right: 5px;
+      width: 100px;
+      height: 50px;
+      margin-top: 10px;
+      cursor: pointer;
+      margin-left: 0;
+   }
+
+   .navbar-nav {
+      flex-wrap: wrap;
+      margin-top: 20px;
+      font-size: 10px;
+   }
+
+   .btn-blue {
+      margin-top: 10px;
+   }
+
+   .key-benefits {
+      margin-left: 70px;
+   }
+
+   div.key-benefit-grid {
+      gap: 20px;
+      grid-template-rows: repeat(4, 1fr);
+      margin-left: 10px;
+   }
+
+   .responsive { 
+      flex-wrap: wrap;
+      margin: 0 90px;
+   }
+   div.floating-dots {
+      flex-wrap: wrap;
+   }
+
+   .testimonial {
+      flex-wrap: wrap-reverse;
+      justify-content: center;
+   }
+
+   .testimonial .left-test-box .dots-image {
+      left: 80px;
+   }
+
+   .left-test-box {
+      margin-top: 50px;
+   }
+
+   .speech-and-form .left-speech {
+      margin: 30px 5px;
+   }
+
+   .speech-and-form .right-form {
+      margin-left: 10px;
+   }
+   
+   .speech-and-form .right-form form {
+      grid-template-columns: repeat(2, auto);
+      grid-template-rows: repeat(6, 60px);
+      width: 100%;
+   }
+}

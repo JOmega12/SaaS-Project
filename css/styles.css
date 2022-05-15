@@ -1,0 +1,739 @@
+
+/*Navbar top AKA sticky*/
+.navbar {
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   z-index: 1;
+   transition: ease-in-out 0.3s;
+}
+
+
+.navbar-toggler {
+   position: absolute;
+   right: var(--size-20);
+   top: var(--size-10);
+   outline: none;
+   background-color: transparent;
+   border: 1px solid transparent;
+}
+
+.navbar-toggler span {
+   color: var(--white);
+   font-size: var(--size-20);
+   cursor: pointer;
+   pointer-events: none;
+}
+
+.image-navbar {
+   width: 100px;
+   height: 50px;
+   margin-top: 10px;
+   cursor: pointer;
+}
+
+.navbar-toggler span {
+   color: var(--white);
+   font-size: var(--size-20);
+   cursor: pointer;
+   pointer-events: none;
+}
+
+.navbar-nav {
+   display: flex;
+   text-decoration: none;
+   margin-left: 45%;
+}
+
+.nav-link a{
+   padding: 0 8px;
+   color: #666;
+   text-decoration: none;
+   font-family: "Hind",sans-serif;
+   text-transform: uppercase;
+}
+
+.btn a {
+   color: var(--white);
+   background-color: #1663be;
+   width: 40px;
+   padding: 10px;
+   font-weight: 500;
+   box-shadow: 0 10px 20px rgba(161, 236, 255, 0.5);
+   border-radius: 20px;
+}
+
+.nav-link a:visited { color: #666; }
+
+/* Below the Nav bar */
+
+.second-container {
+   display: flex;
+   align-items: center;
+   margin-top: 10%;
+}
+
+.second-container div {
+   flex: 1;
+}
+
+.second-container .empower-teams {
+   padding-right: 100px;
+   max-width: 350px;
+}
+
+.empower-teams {
+
+   text-align:left;
+}
+
+.empower-teams h2 {
+   font-weight: 600;
+   font-size: 45px;
+   color: #212529;
+   line-height: 55px;
+   padding-bottom: 0;
+   margin-bottom: 0;
+}
+
+.empower-teams p {
+   margin-top: 0;
+}
+
+.btn-blue-two {
+   color: var(--white);
+   background-color: #1663be;
+   width: 40px;
+   padding: 10px;
+   font-weight: 500;
+   border-radius: 20px;
+   margin: 15px;
+}
+
+.learn-more {
+   color: #1663be;
+   font-weight: 600;
+}
+
+.learn-more :hover { text-decoration: none;}
+
+.company-logos-grid {
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   grid-template-rows: repeat(6, 1fr)
+}
+
+.small-cont {
+   width: 40px;
+   height: 40px;
+   margin: 0px 20px;
+   box-shadow: 0px 0px 37px -4px #A2A2A2;
+   padding: 10px;
+   border-radius: 50%;
+   
+}
+
+.asana {
+   grid-column: 5 / 6;
+   grid-row: 1 / 2;
+   top: 50%
+}
+
+.atlassian {
+   grid-column: 3 / 4;
+   grid-row: 2 / 3;
+}
+.calendar {
+   grid-column: 5 / 6;
+   grid-row: 5 / 6;
+}
+
+.google-ads {
+   grid-column: 2 / 3;
+   grid-row: 5 / 6;
+}
+
+.google {
+   grid-column: 1 / 2;
+   grid-row: 1 / 2;
+}
+
+.paypal {
+   grid-column: 1 / 2;
+   grid-row: 3 / 4;
+}
+
+.weave {
+   grid-column: 4 / 5;
+   grid-row: 4 / 5;
+}
+
+/*Key Benefits*/
+
+.key-benefits-pregrid {
+   text-align: center;
+   margin: 80px 0;
+}
+
+.key-benefits h2 {
+   margin-bottom: 0;
+   color: #212529
+}
+
+.key-benefits p {
+   margin-top: 0;
+}
+
+
+.key-benefit-grid {
+   display: grid;
+   grid-template-columns:  repeat( 4, 1fr);
+   width: 100%;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.key-benefit-grid div .key-ben-img {
+   padding: 0 70px;
+   width: 70px;
+   height: 70px;
+   margin-bottom: 20px;
+}
+
+.responsive h4 {
+   margin-bottom: 0;
+}
+
+.responsive p {
+   margin-top: 0;
+}
+
+.responsive a {
+   color: var(--font-color-link);
+   font-weight: 600;
+}
+
+.sketch {
+   display: flex;
+}
+
+.sketch span {
+   display: flex;
+   align-self: flex-end;
+   background-color: rgb(14, 235, 14);
+   font-weight: 600;
+   padding: 2px;
+   border-radius: 10px;
+   color: #FFF;
+   margin-left: 10px;
+}
+
+
+/* Front makes you look at*/
+
+.mid-container {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   background-color: #F5F5F5;
+   justify-content: center;
+   margin: 50px 0;
+   padding-top: 50px;
+}
+
+.banner-one {
+   display: flex;
+}
+
+.banner-one-left {
+   margin-right: 30px;
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+   align-items: flex-start
+}
+
+
+.banner-one-left h3 {
+   color: #212529;
+   font-size: 20px;
+}
+
+.banner-one-right {
+   margin-left: 20px;
+   box-shadow: -7px -10px 50px 5px #666; 
+}
+
+.banner-one-right img {
+   width: 400px;
+   height: 300px;
+}
+
+/*Why Front */
+.why-front-wrapper {
+   text-align: center;
+}
+
+.why-front h2 {
+   margin-bottom: 0;
+   color: #212529;
+}
+
+.why-front p {
+   margin-top: 0;
+}
+
+.floating-dots {
+   display: flex;
+   gap: 15px;
+   justify-content: center;
+}
+
+
+.dot-uno {
+   text-align: center;
+}
+
+
+.dot {
+   height: 25px;
+   width: 25px;
+   background-color: #ECECEC;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0px 50px;
+ }
+
+ .dot svg {
+    height: 5px;
+    width: 5px;
+    fill: #03a9f4;
+ }
+
+ /*Video box*/
+
+.video-box {
+   margin: 0 30px;
+   position: relative;
+}
+
+
+.video-btn {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   box-shadow: 0 10px 20px rgba(57, 166, 251, 0.3);
+}
+
+.vid-box a {
+   border-radius: 80%;
+   height: 80px;
+   width: 80px;
+}
+
+.video-box img.image-video {
+   width: 650px;
+   height: 350px;
+}
+
+
+
+/*testimonial*/
+.testi {
+   margin: 80px 0;
+   flex-direction: column;
+}
+
+
+.testimonial {
+   display: flex;
+   flex-direction: row;
+}
+
+.woman-three {
+   height: 350px;
+   width: 300px;
+}
+
+.dots-image {
+   height: 300px;
+   width: 150px;
+}
+
+.left-test-box .woman-three {
+   position: relative;
+   z-index: 5;
+   padding: 0 20px;
+}
+
+.left-test-box .dots-image {
+   position: absolute;
+   left: 200px;
+   margin-top: 100px;
+}
+
+.right-test-box {
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+}
+
+.right-test-box img {
+   height: 35px;
+   width: 75px;
+   margin-bottom: 0;
+}
+.right-test-box p {
+   margin: 0;
+}
+
+.base {
+   color: #212529;
+
+}
+
+.right-test-box h4 {
+   margin-bottom: 0;
+}
+
+/*Companies that worked with us*/
+
+.company {
+   text-align: center;
+}
+
+.company p {
+   font-size: 15px;
+}
+
+.company-images {
+   display: flex;
+   flex-direction: row;
+}
+
+.c {
+   display: flex;
+   margin: 0 60px;
+}
+
+.company-images div img {
+   height: 50px;
+   width: 50px;
+}
+
+/*payments*/
+
+.priceer {
+   text-align: center;
+   margin: 50px 0;
+}
+
+.pricing h2 {
+   margin-bottom: 0;
+   color:#212529;
+   font-size: 30px;
+   font-weight: 600;
+}
+
+.pricing p {
+   margin-top: 0;
+}
+
+.pricing-grid {
+   display: flex;
+   justify-content: center;
+   gap: 150px;
+}
+
+.left-price-box {
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+
+}
+
+.price-point {
+   display: flex;
+   color:#212529;
+   font-size: 30px;
+}
+
+.price-point h1 {
+   font-weight: 500;
+}
+
+.price-point h5 {
+   padding-top: 30px;
+   margin-left: 20px;
+   font-weight: 100;
+}
+
+.price-pont h1, .price-point h5 {
+   margin-bottom: 0;
+   padding-bottom: 0;
+}
+
+.pricing-grid p {
+   margin-top: 0;
+}
+
+
+.left-price-box .price-btn {
+   padding: 10px;
+   background-color: #03a9f4;
+   color: #FFF;
+   font-weight: 700;
+   width: 100px;
+   border-radius: 50px;
+}
+
+
+.rightbox-price {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   gap: 40px;
+}
+
+.price h5{
+   margin: 10px 0;
+   color:#212529;
+   font-size: 15px;
+
+}
+
+.price img {
+   height: 40px;
+   width: 40px;
+   margin-bottom: 0;
+}
+
+/*Form and testimonial*/
+.form-fill {
+   display: flex;
+   background-color: #203354;
+   color:#ECECEC;
+   justify-content: center;
+}
+
+.speech-and-form {
+   display: flex;
+   justify-content: space-evenly;
+   margin: 50px 100px;
+   align-self: center;
+   flex-direction: row;
+}
+
+.left-speech {
+   margin: 50px 20px;
+   width: 120%;
+}
+
+.hire-us h2 {
+   font-size: 25px;
+   font-weight: 600;
+   margin-bottom: 0;
+}
+
+.hire-us p {
+   margin-top: 5px;
+   font-size: 13px;
+   font-weight: 300;
+}
+
+.hire-us hr {
+   width: 50%;
+   margin-left: 0;
+}
+
+.girl-testim h6{
+   margin-bottom: 0;
+   font-size: 12px;
+}
+
+.girl-testim .title {
+   margin-top: 0;
+   font-size: 8px;
+}
+
+.image-people {
+   height: 40px;
+   width: 40px;
+   display: flex;
+   gap: 20px;
+}
+
+.p-one {
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+}
+
+.p-two {
+   height: 25px;
+   width: 25px;
+   border-radius: 50%;
+}
+
+.p-three {
+   height: 35px;
+   width: 35px;
+   border-radius: 50%;
+}
+
+.right-form {
+   background-color: white;
+   color: #212529;
+   text-align: center;
+   width: 50%;
+   height: 150%;
+   padding: 30px;
+   border-radius: 10px;
+}
+
+.right-form h5 {
+   font-size: 14px;
+   text-align: start;
+}
+
+.right-form form {
+   display: grid;
+   grid-template-columns: repeat(2, 180px);
+   grid-template-rows: repeat(6, 40px);
+   border-radius: 5px;;
+}
+
+select {
+   padding: 1rem;
+   box-sizing: unset;
+}
+
+.left-top {
+   grid-column: 1 / 2;
+   grid-row: 1 / 2;
+}
+
+.right-top {
+   grid-column: 2 / 3;
+   grid-row: 1 / 2;
+}
+
+.mid-left-top {
+   grid-column: 1 / 2;
+   grid-row: 2 / 2;
+}
+
+.mid-right-top {
+   grid-column: 2 / 3;
+   grid-row: 2 / 3;
+}
+
+#budget {
+   grid-column: 1 / 2;
+   grid-row: 3 / 4;
+   color: gray;
+}
+
+#country {
+   grid-column: 2 / 3;
+   grid-row: 3 / 4;
+   color: gray;
+}
+
+#comments {
+   grid-column: 1 / 3;
+   grid-row: 4 / 6;
+   padding-bottom: 0;
+   margin-bottom: 0;
+}
+
+.checkmark {
+   margin-top: 0;
+   padding-top: 0;
+   color: gray;
+}
+
+.button {
+   padding: 5px ;
+   background-color: #1663be;
+   color: #FFF;
+   margin-top: 5px;
+   font-weight: 300;
+   font-size: 13px;
+   width: 100%;
+   border-radius: 10px;
+   border-bottom: none;
+}
+
+/*footer*/
+footer {
+   display: flex;
+   flex-direction: column;
+   margin-top: 70px;
+   font-size: 12px;
+}
+
+.subcat-footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+.about-footer img {
+   height: 50px;
+   width: 100px;
+}
+
+.address {
+   display: flex;
+}
+
+.address i {
+   align-self: center;
+}
+
+.phone-number {
+   display: flex;
+}
+
+.phone-number i {
+   align-self: center;
+}
+
+.location {
+   height: 10px;
+   width: 10px;
+}
+
+.hiring {
+   display: flex;
+}
+
+.hiring span {
+   margin-left: 10px;
+   align-self: center;
+   background-color: #1663be;
+   color:#ECECEC;
+}
+
+.resources-info {
+   display: flex;
+}
+.resources-info i {
+   align-self: center;
+   margin-right: 10px;
+}
+
+.account-info {
+   display: flex;
+}
+
+.account-info i {
+   align-self: center;
+   margin-right: 10px;
+}
